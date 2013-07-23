@@ -76,6 +76,14 @@ before do
 end
 
 get '/' do
+  erb :index
+end
+
+before '/new_player' do
+  redirect '/back_to_game' if session[:game_step]
+end
+
+get '/' do
   if session[:player_name]
     redirect '/game'
   else
