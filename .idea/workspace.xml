@@ -19,62 +19,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="bet.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/bet.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/game.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1362016268000" expanded="true" signature="21:173" placeholder="if ... end" />
-                <marker date="1362016268000" expanded="true" signature="254:432" placeholder="if ... end" />
-                <marker date="1362016268000" expanded="true" signature="533:720" placeholder="do ... end" />
-                <marker date="1362016268000" expanded="true" signature="558:706" placeholder="if ... end" />
-                <marker date="1362016268000" expanded="true" signature="732:1068" placeholder="if ... end" />
-                <marker date="1362016268000" expanded="true" signature="1188:1241" placeholder="do ... end" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.ru" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.ru">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.05831904">
               <folding />
             </state>
           </provider>
@@ -86,6 +34,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/main.rb" />
       </list>
     </option>
   </component>
@@ -136,6 +85,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jackblack-blackjack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tl-blackjack-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackblack-blackjack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tl-blackjack-webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jackblack-blackjack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,12 +224,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="25" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1362016268000" expanded="true" signature="21:173" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="254:432" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="533:720" placeholder="do ... end" />
-            <marker date="1362016268000" expanded="true" signature="558:706" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="732:1068" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="1188:1241" placeholder="do ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="do ... end" />
           </folding>
         </state>
       </provider>
@@ -282,6 +259,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ru">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/game.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="200" selection-end="200" vertical-scroll-proportion="0.030520646">
+          <folding>
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="if ... end" />
+            <marker date="1362016268000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -292,21 +304,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/game.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1362016268000" expanded="true" signature="21:173" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="254:432" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="533:720" placeholder="do ... end" />
-            <marker date="1362016268000" expanded="true" signature="558:706" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="732:1068" placeholder="if ... end" />
-            <marker date="1362016268000" expanded="true" signature="1188:1241" placeholder="do ... end" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
+    <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -315,21 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+        <state line="2" column="0" selection-start="37" selection-end="37" vertical-scroll-proportion="0.05831904">
           <folding />
         </state>
       </provider>
