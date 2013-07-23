@@ -1,3 +1,9 @@
+body{
+    background: url('/images/Jack_Black.jpeg');
+    background-size: 100% auto ;
+    color:#ccc;
+}
+
 form#hit_form {
   float: left;
   margin-right: 10px;
