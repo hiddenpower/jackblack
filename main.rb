@@ -69,6 +69,7 @@ helpers do
     @show_hit_or_stay_buttons = false
     @winner = "<strong>It's a tie!</strong> #{msg}"
   end
+
 end
 
 before do
@@ -114,7 +115,7 @@ post '/bet' do
   elsif params[:bet_amount].to_i > session[:player_pot]
     @error = "You don't have that amount. You have $#{session[:player_pot]}"
     halt erb(:bet)
-  else #happy path
+  else
     session[:player_bet] = params[:bet_amount].to_i
     redirect '/game'
   end
@@ -143,9 +144,8 @@ post '/game/player/hit' do
   session[:player_cards] << session[:deck].pop
 
   player_total = calculate_total(session[:player_cards])
-  if player_total == BLACKJACK_AMOUNT
-    redirect '/game/player/stay'
-  elsif player_total > BLACKJACK_AMOUNT
+
+  if player_total > BLACKJACK_AMOUNT
     loser!("It looks like #{session[:player_name]} busted at #{player_total}.")
   end
 
