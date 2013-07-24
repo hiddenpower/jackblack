@@ -5,14 +5,22 @@
     <div class="alert alert-error"><%=@loser%></div>
   <% end %>
 
-  <h1>Game in progress</h1>
-
   <% if @play_again %>
-    <p>
-      <strong>Play again?</strong>
-      <a href="/bet" class="btn btn-primary">Yes</a>
-      <a href="/game_over" class="btn"> No</a>
-    </p>
+      <%if session[:player_pot].to_i == 0 %>
+        <p>
+          <strong>Your money is gone!</strong>
+          <a href="/" class="btn btn-inverse">Start over</a>
+          <a href="/game_over" class="btn btn-danger"> I'm out</a>
+        </p>
+      <%else%>
+        <p>
+        <strong>Play again?</strong>
+        <a href="/bet" class="btn btn-inverse">Yes</a>
+        <a href="/game_over" class="btn btn-danger"> No</a>
+      </p>
+      <%end%>
+  <% else %>
+      <h1>Game in progress</h1>
   <% end %>
 
   <div class="well">
@@ -29,7 +37,7 @@
       <p>
         <h5>Dealer has <%= calculate_total(session[:dealer_cards])%> and will hit.</h5>
         <form id="dealer_hit" action='/game/dealer/hit' method='post'>
-            <input type='submit' class='btn btn-primary' value='Click to see dealer card &rarr;'>
+            <input type='submit' class='btn btn-inverse' value='Click to see next card.'>
           </form>
       </p>
     <% end %>
@@ -49,19 +57,25 @@
   </div>
 
 
-  <div class='align-center'>
+  <div class='well'>
+    <% if @show_hit_or_stay_buttons %>
       <p>
         Now what, <%= session[:player_name] %>?
         You have <%= calculate_total(session[:player_cards]) %>
-
+    <% else %>
+      <p>
+        You stayed on <%= calculate_total(session[:player_cards]) %>
+    <% end %>
+  </div>
       <% if @show_hit_or_stay_buttons %>
-        <form id="hit_form" action="/game/player/hit" method='post'>
-          <input type="submit" class="btn btn-success" value="Hit" />
-        </form>
-        <form id="stay_form" action="/game/player/stay" method='post'>
-          <input type="submit" class="btn btn-warning" value="Stay" />
-        </form>
+        <%if calculate_total(session[:player_cards]) < 21 %>
+          <form id="hit_form" action="/game/player/hit" method='post'>
+            <input type="submit" class="btn btn-inverse" value="Hit" />
+          </form>
+        <%end%>
+          <form id="stay_form" action="/game/player/stay" method='post'>
+            <input type="submit" class="btn btn-danger" value="Stay" />
+          </form>
       <% end %>
       </p>
-   </div>
 </div>

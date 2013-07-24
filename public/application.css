@@ -2,7 +2,7 @@ body{
     background: url('/images/Jack_Black.jpg');
     background-size: 85%;
     background-repeat:no-repeat;
-    color:#51a351;
+    color:#cf0000;
 }
 
 form#hit_form {
@@ -17,6 +17,15 @@ form#stay_form {
 img.card_image {
   margin: 0px 5px 5px 0px;
     height: 9em;
+}
+
+img.logo {
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 18%;
+    right: 24%;
+    opacity:0.9;
 }
 
 .anch{

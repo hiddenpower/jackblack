@@ -109,7 +109,7 @@ end
 
 post '/bet' do
   if params[:bet_amount].nil? || params[:bet_amount].to_i == 0
-    @error = "I said BET!."
+    @error = "I said BET!"
     halt erb(:bet)
   elsif params[:bet_amount].to_i > session[:player_pot]
     @error = "You don't have that amount. You have $#{session[:player_pot]}"
@@ -144,7 +144,7 @@ post '/game/player/hit' do
 
   player_total = calculate_total(session[:player_cards])
   if player_total == BLACKJACK_AMOUNT
-    winner!("#{session[:player_name]} hit blackjack.")
+    redirect '/game/player/stay'
   elsif player_total > BLACKJACK_AMOUNT
     loser!("It looks like #{session[:player_name]} busted at #{player_total}.")
   end
@@ -166,7 +166,7 @@ get '/game/dealer' do
   dealer_total = calculate_total(session[:dealer_cards])
 
   if dealer_total == BLACKJACK_AMOUNT
-    loser!("Dealer hit blackjack.")
+    redirect '/game/compare'
   elsif dealer_total > BLACKJACK_AMOUNT
     winner!("Dealer busted at #{dealer_total}.")
   elsif dealer_total >= DEALER_MIN_HIT #17, 18, 19, 20
