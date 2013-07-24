@@ -49,7 +49,7 @@
       <file leaf-file-name="game.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/game.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.2236842">
+            <state line="8" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.12781955">
               <folding />
             </state>
           </provider>
@@ -437,7 +437,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/game.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.2236842">
+        <state line="8" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.12781955">
           <folding />
         </state>
       </provider>
