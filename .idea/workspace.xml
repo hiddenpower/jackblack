@@ -40,7 +40,7 @@
       <file leaf-file-name="main.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="0" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
+            <state line="138" column="46" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.04">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="game.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/game.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="10" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.6947935">
+            <state line="8" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.2236842">
               <folding />
             </state>
           </provider>
@@ -73,6 +73,7 @@
         <option value="$PROJECT_DIR$/views/new_player.erb" />
         <option value="$PROJECT_DIR$/views/bet.erb" />
         <option value="$PROJECT_DIR$/views/game_over.erb" />
+        <option value="$PROJECT_DIR$/public/application.js" />
         <option value="$PROJECT_DIR$/main.rb" />
         <option value="$PROJECT_DIR$/views/game.erb" />
       </list>
@@ -126,20 +127,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jackblack-blackjack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tl-blackjack-webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jackblack-blackjack" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,13 +332,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -441,16 +421,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="43" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
+        <state line="138" column="46" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.04">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/game.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="10" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.6947935">
+        <state line="8" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.2236842">
           <folding />
         </state>
       </provider>

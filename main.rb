@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'sinatra'
+require 'json'
 
 set :sessions, true
 
@@ -150,6 +151,8 @@ post '/game/player/hit' do
   end
 
   erb :game, layout: false
+
+
 end
 
 post '/game/player/stay' do

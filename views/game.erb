@@ -6,9 +6,10 @@
   <% end %>
 
   <% if @play_again %>
-      <%if session[:player_pot].to_i == 0 %>
+      <%if session[:player_pot].to_i <= 0 %>
         <p>
           <strong>Your money is gone!</strong>
+          <br>
           <a href="/" class="btn btn-inverse">Start over</a>
           <a href="/game_over" class="btn btn-danger"> I'm out</a>
         </p>
