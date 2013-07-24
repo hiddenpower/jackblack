@@ -37,19 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/game.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="35" selection-start="2110" selection-end="2110" vertical-scroll-proportion="1.6570916">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="139" column="3" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0">
+            <state line="139" column="3" selection-start="3195" selection-end="3195" vertical-scroll-proportion="3.9073756">
               <folding />
             </state>
           </provider>
@@ -418,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="139" column="3" selection-start="3195" selection-end="3195" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
@@ -441,6 +425,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/game.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="35" selection-start="2110" selection-end="2110" vertical-scroll-proportion="1.6570916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/game_over.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="49" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.3076923">
@@ -448,9 +439,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/game.erb">
+    <entry file="file://$PROJECT_DIR$/main.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="35" selection-start="2110" selection-end="2110" vertical-scroll-proportion="1.6570916">
+        <state line="139" column="3" selection-start="3195" selection-end="3195" vertical-scroll-proportion="3.9073756">
           <folding />
         </state>
       </provider>
