@@ -1,16 +1,2 @@
 <h3>Thanks for playing!</h3>
 Maybe it's time to hit up Vegas?
-
-<a href='/new_player'>Start over</a>
-
-
-<div class='align-center'>
-  <% if @money >0 %>
-      <h1>Thanks for playing!</h1>
-      <img class='small-image' alt='take my money' src='/images/take_my_money.png' />
-      <a class='btn btn-large btn-success' href='/close_game'>Go to Casino</a>
-  <% else %>
-      <h1>You don't have any money!</h1>
-      <a class='btn btn-large btn-success' href='/close_game'>Go to Casino</a>
-  <% end %>
-</div>

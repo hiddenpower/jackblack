@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jack Black Blackjack</title>
-    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css">
+    <title>Jack Black's Blackjack</title>
+    <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/application.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/application.js"></script>
   </head>
   <body style="padding-top: 50px;">
-
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
             <ul class="nav">
-              <li><a href="/new_player">Start Over</a></li>
+              <% if session[:player_name] != nil %>
+                <li><a href="/">Start Over</a></li>
+              <% end %>
             </ul>
         </div>
       </div>

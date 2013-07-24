@@ -76,19 +76,14 @@ before do
 end
 
 get '/' do
+  session[:player_name] = nil
+  session[:game_step] = nil
+  session[:player_pot] = nil
   erb :index
 end
 
 before '/new_player' do
   redirect '/back_to_game' if session[:game_step]
-end
-
-get '/' do
-  if session[:player_name]
-    redirect '/game'
-  else
-    redirect '/new_player'
-  end
 end
 
 get '/new_player' do
@@ -99,11 +94,11 @@ end
 post '/new_player' do
 
   if params[:player_name].empty?
-    @error = "Name is required"
+    @error = "You must have a name."
     halt erb(:new_player)
   end
 
-  session[:player_name] = params[:player_name]
+  session[:player_name] = params[:player_name].capitalize
   redirect '/bet'
 end
 
@@ -114,10 +109,10 @@ end
 
 post '/bet' do
   if params[:bet_amount].nil? || params[:bet_amount].to_i == 0
-    @error = "Must make a bet."
+    @error = "I said BET!."
     halt erb(:bet)
   elsif params[:bet_amount].to_i > session[:player_pot]
-    @error = "Bet amount cannot be greater than what you have ($#{session[:player_pot]})"
+    @error = "You don't have that amount. You have $#{session[:player_pot]}"
     halt erb(:bet)
   else #happy path
     session[:player_bet] = params[:bet_amount].to_i

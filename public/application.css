@@ -1,7 +1,8 @@
 body{
-    background: url('/images/Jack_Black.jpeg');
-    background-size: 100% auto ;
-    color:#ccc;
+    background: url('/images/Jack_Black.jpg');
+    background-size: 85%;
+    background-repeat:no-repeat;
+    color:#51a351;
 }
 
 form#hit_form {
@@ -15,4 +16,11 @@ form#stay_form {
 
 img.card_image {
   margin: 0px 5px 5px 0px;
+    height: 9em;
+}
+
+.anch{
+    text-align:center;
+    vertical-align:top;
+    line-height:100px;
 }
