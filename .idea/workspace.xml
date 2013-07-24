@@ -28,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bet.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/bet.erb">
+      <file leaf-file-name="game_over.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/game_over.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="48" selection-start="76" selection-end="108" vertical-scroll-proportion="-0.65384614">
+            <state line="2" column="49" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.3076923">
               <folding />
             </state>
           </provider>
@@ -40,7 +40,7 @@
       <file leaf-file-name="game.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/game.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="54" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.5112782">
+            <state line="71" column="35" selection-start="2110" selection-end="2110" vertical-scroll-proportion="1.6570916">
               <folding />
             </state>
           </provider>
@@ -66,7 +66,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/views/game_over.erb" />
         <option value="$PROJECT_DIR$/views/layout.erb" />
         <option value="$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/views/index.erb" />
@@ -75,6 +74,7 @@
         <option value="$PROJECT_DIR$/views/bet.erb" />
         <option value="$PROJECT_DIR$/main.rb" />
         <option value="$PROJECT_DIR$/views/game.erb" />
+        <option value="$PROJECT_DIR$/views/game_over.erb" />
       </list>
     </option>
   </component>
@@ -397,15 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="56" selection-start="128" selection-end="128" vertical-scroll-proportion="-1.3076923">
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/new_player.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="55" selection-start="310" selection-end="310" vertical-scroll-proportion="-5.8846154">
@@ -413,23 +404,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/game_over.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="61" selection-end="61" vertical-scroll-proportion="0.030520646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3115" column="1" selection-start="55864" selection-end="55864" vertical-scroll-proportion="4.8862386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -448,9 +425,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="17" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="103" selection-start="130" selection-end="175" vertical-scroll-proportion="0.06104129">
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/game_over.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="49" selection-start="121" selection-end="121" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/game.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="54" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.5112782">
+        <state line="71" column="35" selection-start="2110" selection-end="2110" vertical-scroll-proportion="1.6570916">
           <folding />
         </state>
       </provider>
