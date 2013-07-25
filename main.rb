@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'sinatra'
-require 'json'
 
 set :sessions, true
 
@@ -110,7 +109,7 @@ get '/bet' do
 end
 
 post '/bet' do
-  if params[:bet_amount].nil? || params[:bet_amount].to_i == 0
+  if params[:bet_amount].nil? || params[:bet_amount].to_i <= 0
     @error = "I said BET!"
     halt erb(:bet)
   elsif params[:bet_amount].to_i > session[:player_pot]
