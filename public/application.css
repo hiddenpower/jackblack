@@ -28,6 +28,11 @@ img.logo {
     opacity:0.9;
 }
 
+input.chip {
+    height: 10%;
+    width: 10%;
+}
+
 .anch{
     text-align:center;
     vertical-align:top;

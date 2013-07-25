@@ -1,7 +1,21 @@
 <h3>How much money do you want to lose... I mean, bet?</h3>
 <h4>Max bet is $<%= session[:player_pot].to_i %></h4>
-  <form action='/bet' method='post'>
+
+<form action='/bet' method='post'>
   <input type="text" name="bet_amount" />
-  <br/>
   <input type="submit" value="Bet" class="btn btn-large btn-inverse" />
+  <br/>
+  <h5>Or click on a chip to bet that amount</h5>
+  <%if session[:player_pot].to_i >=5%>
+    <input class="chip" name="bet_amount" value=5 type="image"  src='/images/chip_5.png'>
+  <%end%>
+  <%if session[:player_pot].to_i >=25%>
+    <input class="chip" name="bet_amount" value=25 type="image"  src='/images/chip_25.png'>
+  <%end%>
+  <%if session[:player_pot].to_i >=100%>
+    <input class="chip" name="bet_amount" value=100 type="image"  src='/images/chip_100.png'>
+  <%end%>
+  <%if session[:player_pot].to_i >=500%>
+    <input class="chip" name="bet_amount" value=500 type="image"  src='/images/chip_500.png'>
+  <%end%>
 </form>
